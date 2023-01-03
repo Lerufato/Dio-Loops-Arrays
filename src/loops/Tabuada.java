@@ -26,7 +26,7 @@ public class Tabuada {
         System.out.println("Tabuada de " + tabuada + ":");
 
         //para: variável i = 0, até i menor ou igual a 10, adicionando 1 ao valor de i a cada loop.
-        for (int i = 1; i <= 10; i = i + 1) { //for é similar ao while, porém resumido
+        for (int i = 1; i <= 10; i = i + 1) { //(condição inicial; até quando deve repetir; mudança em cada loop)
             //número escolhido pelo usuário "X" o valor de i "=" a multiplicação do número com o i.
             System.out.println(tabuada + " X " + i + " = " + (tabuada * i));
         }

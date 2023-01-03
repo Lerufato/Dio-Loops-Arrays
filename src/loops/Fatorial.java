@@ -13,14 +13,14 @@ public class Fatorial {
         Scanner scan = new Scanner(System.in); //Abertura da entrada de fluxo de dados 
 
         System.out.println("Número: "); //Peça um número
-        int numero = scan.nextInt(); //Entrada de dados, neste caso de um int.
+        int fatorial = scan.nextInt(); //Entrada de dados, neste caso de um int.
 
         int multiplicacao = 1; //variável para guardar o valor da multiplicação dos valores.
 
-        System.out.print(numero + "!="); 
+        System.out.print(fatorial + "!="); 
 
         //para: variável i = numero, até i maior que 0, diminuimos 1 ao valor de i a cada loop.
-        for(int i = numero; i > 0; i--) {
+        for(int i = fatorial; i >= 1; i--) { //(condição inicial; até quando deve repetir; mudança em cada loop)
             multiplicacao *= i; //multiplicamos os valores de i e armazenamos na variável multiplicação
 
             //criamos esta estrutura condicional para imprimir o resultado conforme foi solicitado no exercício.
