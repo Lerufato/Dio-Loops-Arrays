@@ -42,6 +42,6 @@ public class Tabuada {
             System.out.println(tabuada2 + " X " + x + " = " + (tabuada2 * x));
             x = x + 1;
         }
-        
-}
+        scan.close();
+    }
 }

@@ -28,6 +28,7 @@ public class NomeeIdade {
 
         System.out.println("Continua aqui..."); // quando a estrutura de repetição é finalizada, o código continua a execução
         
+        scan.close();
     }
 
 }

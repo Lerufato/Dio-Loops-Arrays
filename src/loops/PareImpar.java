@@ -36,6 +36,8 @@ public class PareImpar {
         //imprimindo a quantidade de números pares digtados e números ímpares digitados
         System.out.println("Quantidade números pares: " + quantPar);
         System.out.println("Quantidade números ímpares: " + quantImpar);
+
+        scan.close();
     }
     
 }

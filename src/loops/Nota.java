@@ -30,7 +30,7 @@ public class Nota {
         } else {
             System.out.println("Reprovado!");
         }
-
+        scan.close();
     }
 
 }

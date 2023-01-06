@@ -30,5 +30,6 @@ public class Fatorial {
                 System.out.print(i + "=" + (multiplicacao)); //imprima o valor do i seguido do sinal "=" e o resultado da multiplicação
             }
         }
+        scan.close();
     }
 }
