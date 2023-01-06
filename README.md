@@ -36,10 +36,10 @@ Arrays são objetos que armazenam elementos de um mesmo tipo
 - O método length retorna o tamanho do array, ou seja, quantos elementos possui
 
 - A quantidade de elementos será diferente da quantidade de posições, pois o primeiro elemento assume a posição 0. 
- 
+
     Exemplo: 
 
-    int [] vetor = {-5, -6, 15, 50, 8, 4}; 
+    - int [] vetor = {-5, -6, 15, 50, 8, 4}; 
 
     onde -5 é o primeiro elemento, mas está na posição 0. 50 é o quarto elemento, na posição 3. 4 é sexto e último elemento, está na posição 5.
 
